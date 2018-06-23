@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JARS Money</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="nec">NEC</string>
+    <string name="ltss">LTSS</string>
+    <string name="edu">EDU</string>
+    <string name="give">GIVE</string>
+    <string name="play">PLAY</string>
+    <string name="ffa">FFA</string>
+</resources>

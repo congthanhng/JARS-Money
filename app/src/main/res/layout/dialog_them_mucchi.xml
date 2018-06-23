@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Mục Chi"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdNEC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="NEC" />
+
+        <RadioButton
+            android:id="@+id/rdLTSS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="LTSS" />
+
+        <RadioButton
+            android:id="@+id/rdEDU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="EDU" />
+
+        <RadioButton
+            android:id="@+id/rdGIVE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GIVE" />
+
+        <RadioButton
+            android:id="@+id/rdPLAY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLAY" />
+
+        <RadioButton
+            android:id="@+id/rdFFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FFA" />
+    </RadioGroup>
+    <EditText
+        android:id="@+id/editTextTenMucChi"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên hạng mục"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/button_huy_mucchi"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Hủy"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="#a40303"/>
+        <Button
+            android:id="@+id/button_luu_mucchi"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:background="#5dac03"
+            android:textColor="#FFFFFF"
+            android:text="Lưu"/>
+
+    </LinearLayout>
+
+</LinearLayout>

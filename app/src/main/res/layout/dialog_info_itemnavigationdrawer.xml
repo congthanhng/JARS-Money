@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên sản phẩm: JARS MONEY"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phiên bản 1.0"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đội ngũ sản xuất: Nhóm sinh viên thuộc Trường đại học công nghệ thông tin TP-HCM - Đại học quốc gia TP-HCM"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mô tả: Đây là đồ án cuối kì môn Công nghệ phần mềm chuyên sâu được hướng dẫn bởi giảng viên trường: thầy Phan Trung Hiếu"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liên hệ: mọi thắc mắc, ý kiến xin liên hệ hòm thư: nhocchoda@gmail.com , thường sẽ trả lời trong vòng 24h."/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="(-Nhoi Nhoi-)"/>
+
+</LinearLayout>

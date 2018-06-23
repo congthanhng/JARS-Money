@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/textViewTongTien"
+        android:layout_below="@+id/textViewdatebegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Tổng tiền hiện có:"
+        android:textStyle="bold"
+         />
+
+    <TextView
+        android:id="@+id/textViewSoTien"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@id/textViewTongTien"
+        android:layout_alignStart="@+id/textViewTongTien"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="0 VNĐ"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:textColor="#ffffff"
+        android:id="@+id/buttonThemTaiKhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/textViewSoTien"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_alignTop="@+id/textViewSoTien"
+        android:background="@drawable/custom_button_them"
+        android:text="Thêm"
+        android:textSize="14sp" />
+
+    <GridView
+        android:verticalSpacing="3dp"
+        android:horizontalSpacing="3dp"
+        android:id="@+id/GridVJARS"
+        android:numColumns="2"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewSoTien"
+    android:layout_marginTop="8dp"
+    android:orientation="horizontal"
+    android:layout_alignStart="@id/textViewTongTien"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/textViewdatebegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="15sp"
+        android:text="Từ: 15/6/2018" />
+    <ImageView
+        android:id="@+id/imageDateBegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_date_range_black_24dp"
+        android:layout_toEndOf="@id/textViewdatebegin"/>
+
+    <TextView
+        android:id="@+id/textViewdateend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/textView4"
+        android:layout_marginStart="5dp"
+        android:textSize="15sp"
+        android:layout_alignParentTop="true"
+        android:text="Đến: 20/6/2018" />
+
+    <ImageView
+        android:id="@+id/imageDateEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_date_range_black_24dp"
+        android:layout_toEndOf="@id/textViewdateend"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/imageDateBegin"
+        android:text="-"
+        android:textSize="15sp"/>
+
+
+
+</RelativeLayout>

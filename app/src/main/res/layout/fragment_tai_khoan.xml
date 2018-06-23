@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaiKhoanFragment"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <Button
+        android:textColor="#ffffff"
+        android:id="@+id/btThemTK"
+        android:background="@drawable/custom_button_them"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Thêm khoản thu nhập" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:textColor="#0525f5"
+        android:id="@+id/tvTongtien"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng tiền ban đầu: 0 VNĐ"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/textViewTongcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiện có: 0 VNĐ"
+        android:textSize="17sp"
+        android:textColor="#0d6b33"/>
+
+
+
+
+
+</LinearLayout>

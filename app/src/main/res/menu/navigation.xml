@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="JARS"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/item_navigation_taikhoan"
+        android:icon="@drawable/ic_monetization_on_black_24dp"
+        android:title="Tài Khoản"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/item_navigation_muchi"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:title="Mục Chi"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/item_navigation_ghichep"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="Ghi Chép"
+        app:showAsAction="always|withText"/>
+
+</menu>

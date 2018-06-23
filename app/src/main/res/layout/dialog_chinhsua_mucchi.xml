@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chỉnh Sửa Mục Chi"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextChinhsuaMucChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chỉnh sửa tên"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/button_xoa_mucchi"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Xóa"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="#a40303"/>
+        <Button
+            android:id="@+id/button_luu_mucchi"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:background="#5dac03"
+            android:textColor="#FFFFFF"
+            android:text="Xác nhận"/>
+    </LinearLayout>
+
+
+</LinearLayout>

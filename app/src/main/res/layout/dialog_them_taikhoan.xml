@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Tài Khoản"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/editTextNhapTenTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập tên tài khoản"/>
+
+    <EditText
+        android:id="@+id/editTextNhapSoTien"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+
+        android:gravity="end"
+        android:hint="0 VNĐ"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editTextNhapGhiChu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ghi chú"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/button_huy_them_taikhoan"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Hủy"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="#a40303"/>
+        <Button
+            android:id="@+id/button_luu_them_tai_khoan"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:background="#5dac03"
+            android:textColor="#FFFFFF"
+            android:text="Lưu"/>
+
+    </LinearLayout>
+
+</LinearLayout>

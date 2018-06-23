@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/itemThetlap"
+        android:icon="@drawable/phantram_icon"
+        android:title="Thiết lập %"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/itemHuongdan"
+        android:icon="@drawable/open_book"
+        android:title="Hướng Dẫn"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/itemCaiDat"
+        android:icon="@drawable/ic_settings_black_24dp"
+        app:showAsAction="always"
+        android:title="Cài đặt"/>
+
+</menu>
